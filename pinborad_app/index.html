@@ -2,12 +2,40 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link href="css/bootstrap.min.js" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+	<div class="container">
+		<h1>Pinboard:Watch</h1>
 
+
+
+
+		<div class="menu" data-menu="u">User</div>
+		<div class="menu" data-menu="t">Tag</div>
+		<div class="menu" data-menu="popular">Popular</div>
+		<div class="tab-content">
+			<div class="form-group ">
+				<input type="text" class="form-control" placeholder="ユーザー名を入力してください" id="search-word">
+				<button id="search-btn"class="btn btn-default">検索</button>
+			</div>
+			<div id="recomend-area">
+				<p></p>
+				<ul id="recomend-list"></ul>
+			</div>
+
+			<div id="element">
+
+			</div>
+		</div>
+
+
+	</div>
+
+	
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
