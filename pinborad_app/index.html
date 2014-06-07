@@ -13,29 +13,64 @@
 
 
 
-
-		<div class="menu" data-menu="u">User</div>
-		<div class="menu" data-menu="t">Tag</div>
-		<div class="menu" data-menu="popular">Popular</div>
+		<div class="tab_menu">
+			<div class="menu" data-menu="user">User</div>
+			<div class="menu" data-menu="tag">Tag</div>
+			<div class="menu" data-menu="popular">Popular</div>
+		</div>
 		<div class="tab-content">
-			<div class="form-group ">
-				<input type="text" class="form-control" placeholder="ユーザー名を入力してください" id="search-word">
-				<button id="search-btn"class="btn btn-default">検索</button>
-			</div>
-			<div id="recomend-area">
-				<p></p>
-				<ul id="recomend-list"></ul>
+			<div class="user-content">
+				<div class="form-group ">
+					<input type="text" class="form-control" placeholder="ユーザー名を入力してください" id="user-search-word">
+					<button id="user-search-btn"class="btn btn-default">検索</button>
+				</div>
+				<div id="user-recomend-area">
+					<p>おすすめのユーザー</p>
+					<ul id="recomend-list">
+						<li><a href="">studiomohawk</a></li>
+						<li><a href="">studiomohawk</a></li>
+						<li><a href="">studiomohawk</a></li>
+					</ul>
+				</div>
+
+				<div id="user-element">
+
+				</div>
 			</div>
 
-			<div id="element">
+			<div class="tag-content">
+				<div class="form-group ">
+					<input type="text" class="form-control" placeholder="タグ名を入力してください" id="tag-search-word">
+					<button id="tag-search-btn"class="btn btn-default">検索</button>
+				</div>
+				<div id="tag-recomend-area">
+					<p>おすすめのタグ名</p>
+					<ul id="recomend-list">
+						<li><a href="">javascript</a></li>
+						<li><a href="">chrome</a></li>
+						<li><a href="">browser</a></li>
+						<li><a href="">business</a></li>
+					</ul>
+				</div>
 
+				<div id="tag-element">
+
+				</div>
+			</div>
+
+			<div class="popular-content">
+
+
+				<div id="popular-element">
+
+				</div>
 			</div>
 		</div>
 
 
 	</div>
 
-	
+
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
