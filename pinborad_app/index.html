@@ -8,9 +8,10 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<h1>Pinboard:Watch</h1>
-
+	<div>
+		<div class="title-area">
+			<h1>Pinboard:Watch</h1>
+		</div>
 
 
 		<div class="tab_menu">
@@ -19,19 +20,24 @@
 			<div class="menu" data-menu="popular">Popular</div>
 		</div>
 		<div class="tab-content">
+
 			<div class="user-content">
-				<div class="form-group ">
-					<input type="text" class="form-control" placeholder="ユーザー名を入力してください" id="user-search-word">
-					<button id="user-search-btn"class="btn btn-default">検索</button>
+				
+				<div class="form-group">
+					<input type="text" size="30" placeholder="ユーザー名を入力してください" id="user-search-word">
+					<button id="user-search-btn">検索</button>
+					<p id="user-erorr-msg"></p>
 				</div>
 				<div id="user-recomend-area">
+					
 					<p>おすすめのユーザー</p>
-					<ul id="recomend-list">
-						<li><a href="">studiomohawk</a></li>
-						<li><a href="">studiomohawk</a></li>
-						<li><a href="">studiomohawk</a></li>
+					<ul id="user-recomend-list">
+						<li><a href="javascript:void(0)">studiomohawk</a></li>
+						<li><a href="javascript:void(0)">studiomohawk</a></li>
+						<li><a href="javascript:void(0)">studiomohawk</a></li>
 					</ul>
 				</div>
+				<div class="loading"></div>
 
 				<div id="user-element">
 
@@ -39,20 +45,23 @@
 			</div>
 
 			<div class="tag-content">
+
 				<div class="form-group ">
-					<input type="text" class="form-control" placeholder="タグ名を入力してください" id="tag-search-word">
-					<button id="tag-search-btn"class="btn btn-default">検索</button>
+					<input type="text" size="30" class="form-control" placeholder="タグ名を入力してください" id="tag-search-word">
+					<button id="tag-search-btn">検索</button>
+					<p id="tag-erorr-msg"></p>
 				</div>
 				<div id="tag-recomend-area">
+					
 					<p>おすすめのタグ名</p>
-					<ul id="recomend-list">
-						<li><a href="">javascript</a></li>
-						<li><a href="">chrome</a></li>
-						<li><a href="">browser</a></li>
-						<li><a href="">business</a></li>
+					<ul id="tag-recomend-list">
+						<li><a href="javascript:void(0)">javascript</a></li>
+						<li><a href="javascript:void(0)">chrome</a></li>
+						<li><a href="javascript:void(0)">browser</a></li>
+						<li><a href="javascript:void(0)">business</a></li>
 					</ul>
 				</div>
-
+				<div class="loading"></div>
 				<div id="tag-element">
 
 				</div>
@@ -60,7 +69,7 @@
 
 			<div class="popular-content">
 
-
+				<div class="loading"></div>
 				<div id="popular-element">
 
 				</div>
