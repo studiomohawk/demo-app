@@ -40,7 +40,7 @@ $(function(){
 					var title = json[i].d,
 					url = json[i].u,
 					disc = json[i].n;
-					$('<div></div>').html('<a href="'+url+'"<h3>'+title+'</h3></a><p>'+disc+'</p><hr>').appendTo('#user-element');
+					$('<div></div>').html('<a href="'+url+'"<h3>'+title+'</h3></a><p class="disc">'+disc+'</p><hr>').appendTo('#user-element');
 
 					console.log(title);
 				}
@@ -93,7 +93,7 @@ $(function(){
 					var title = json[i].d,
 					url = json[i].u,
 					disc = json[i].n;
-					$('<div></div>').html('<a href="'+url+'"<h3>'+title+'</h3></a><p>'+disc+'</p><hr>').appendTo('#tag-element');
+					$('<div></div>').html('<a href="'+url+'"<h3>'+title+'</h3></a><p class="disc">'+disc+'</p><hr>').appendTo('#tag-element');
 
 					console.log(title);
 				}
@@ -122,7 +122,7 @@ $(function(){
 					var title = json[i].d,
 					url = json[i].u,
 					disc = json[i].n;
-					$('<div></div>').html('<a href="'+url+'"<h3>'+title+'</h3></a><p>'+disc+'</p><hr>').appendTo('#popular-element');
+					$('<div></div>').html('<a href="'+url+'"<h3>'+title+'</h3></a><p class="disc">'+disc+'</p><hr>').appendTo('#popular-element');
 
 
 				}

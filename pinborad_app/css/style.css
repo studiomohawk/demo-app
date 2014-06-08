@@ -1,6 +1,14 @@
 .title-area{
 	height: 100px;
 }
+.disc{
+	max-height: 100px;
+	overflow: hidden;
+}
+blockquote{
+	max-height: 100px;
+	overflow: hidden;
+}
 
 .tab_menu{
 	height: 40px;
